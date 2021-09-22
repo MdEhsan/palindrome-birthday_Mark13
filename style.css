@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    place-items: center;
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #059669;
+}
+
+.input-label{
+    margin: 2rem ;
+    font-weight: bold;
+
+}
+
+#date-input{
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 15px;
+    border: 2px solid #991B1B;
+    cursor: pointer;
+
+}
+
+#show-btn{
+    margin-left: 70px;
+    padding: 1rem 2rem;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #059669 ;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
+
+
