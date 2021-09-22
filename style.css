@@ -6,6 +6,7 @@ body{
     place-items: center;
     display: grid;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 h2{
@@ -40,5 +41,9 @@ h2{
     cursor: pointer;
     
 }
+
+/* #output{
+    text-align: center;
+} */
 
 

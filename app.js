@@ -60,9 +60,6 @@ function getAllDatesFromat(date) {
 }
 
 
-// console.log(getAllDatesFromat(date))
-
-//----
 
 //-- ex 05 checking palindrome for all date formats
 
@@ -82,10 +79,6 @@ function isPalindromeForAllDatesFormat(date) {
 
 
 
-// console.log(isPalindromeForAllDatesFormat(date))
-
-//----
-
 //-- 06 find the next palindrome datees 
 
 //-- leap year check
@@ -103,11 +96,7 @@ function isLeapYear(year) {
     return false;
 }
 
-// console.log (isLeapYear(2021))
 
-//----
-
-//----
 
 function toGetNextDate(date) {
     var day = date.day + 1;
@@ -167,17 +156,8 @@ function getNextPalindromeDate(date) {
 }
 
 
-// var date = {
-//     day: 31,
-//     month: 12,
-//     year: 2020
-// };
 
-
-
-// console.log( getNextPalindromeDate(date));
-
-const bdayInput = document.querySelector("#bday-input");
+const bdayInput = document.querySelector("#date-input");
 const showButton = document.querySelector("#show-btn");
 const outputDiv = document.querySelector("#output");
 
@@ -200,7 +180,7 @@ function clickHandler() {
             outputDiv.innerText = "yay ! your birthday is a palindrome"
         } else {
             var [ctr, nextDate] = getNextPalindromeDate(date);
-            outputDiv.innerText = `the next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you misse dit by ${ctr} days`
+            outputDiv.innerText = `the next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days`
         }
 
 
